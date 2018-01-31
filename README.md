@@ -3,23 +3,23 @@ pdf-invoice
 
 # Install
 ```
-$ npm i -s pdf-invoice
+$ npm i -s pdf-invoice-tobi
 ```
 
 # Usage
 
 ```js
-const pdfInvoice = require('pdf-invoice')
+const pdfInvoice = require('pdf-invoice-tobi')
 
 const document = pdfInvoice({
   company: {
     phone: '(99) 9 9999-9999',
     email: 'company@evilcorp.com',
     address: 'Av. Companhia, 182, Água Branca, Piauí',
-    name: 'Evil Corp.',
+    name: 'Tobi&co',
   },
   customer: {
-    name: 'Elliot Raque',
+    name: 'Tobias kusnaman',
     email: 'raque@gmail.com',
   },
   items: [
