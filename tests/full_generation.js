@@ -5,12 +5,12 @@ const generator = require('../dist/index')
 const document = generator({
   company: {
     phone: '(99) 9 9999-9999',
-    email: 'company@evilcorp.com',
+    email: 'tobias@tobi.com',
     address: 'Av. Companhia, 182, Água Branca, Piauí',
     name: 'Evil Corp.',
   },
   customer: {
-    name: 'Elliot Raque',
+    name: 'Tobias Kusnaman',
     email: 'raque@gmail.com',
   },
   items: [
@@ -26,6 +26,6 @@ document
   .pdfkitDoc
   .pipe(
     fs.createWriteStream(
-      path.join(process.cwd(), 'tests/testing.pdf')
+      path.join(process.cwd(), 'coba.pdf')
     )
   )
