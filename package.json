@@ -1,7 +1,7 @@
 {
-  "name": "pdf-invoice",
+  "name": "pdf-invoice-tobi",
   "version": "1.0.2",
-  "description": "A Phantom dep. free PDF invoice generator built with PDFKit",
+  "description": "Generate Invoice PDF",
   "main": "dist/index.js",
   "scripts": {
     "test": "node tests/full_generation.js",
